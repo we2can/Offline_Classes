@@ -1,0 +1,67 @@
+.bg-teal , .btn-teal{
+    background-color:  #114141 !important;
+}
+.text-teal{
+    color: #114141;
+}
+.carousel .carousel-indicators li {
+    width: 40px;
+    height: 5px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.c_image{
+    box-shadow: 0 0 10px #114141;
+    border-radius: 10px;
+}
+/* -------------- Trainers Section ----------------- */
+.t_image{
+    box-shadow: 0 0 10px #114141;
+    margin-top: -50px;
+}
+.t_card{
+    box-shadow: 0 0 10px #114141;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #114141;
+     color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover .fab{
+    color: white;
+}
+
+/* -------------- Courses Section ----------------- */
+.c_card{
+    box-shadow: 0 0 10px #114141;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.c_card:hover{
+    background-color: #114141;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+
+/* --------------- Price Details -------------------- */
+.text-success{
+    color: darkgreen !important;
+}
+.text-warning{
+    color: orangered !important;
+}
+.text-teal{
+    color: #175858 !important;
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,limegreen);
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,black,orangered);
+}
+
+#submit-btn{
+    width: 500px;
+}
